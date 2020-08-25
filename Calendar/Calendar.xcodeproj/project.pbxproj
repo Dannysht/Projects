@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D0F689F24960CED005568E0 /* BusyHours.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D0F689D24960CED005568E0 /* BusyHours.cpp */; };
+		5D578BED247C2D26004875EA /* Appointment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D578BEB247C2D26004875EA /* Appointment.cpp */; };
+		5D9AE9DA244D8ADF00BA1FC5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D9AE9D9244D8ADF00BA1FC5 /* main.cpp */; };
+		5D9AE9EB24537EA500BA1FC5 /* Calendar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D9AE9E924537EA500BA1FC5 /* Calendar.cpp */; };
+		5DCAAF66248D9EC300D64FAA /* calendarCommands.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D9AE9E6244F57EB00BA1FC5 /* calendarCommands.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5D9AE9D4244D8ADF00BA1FC5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5D0F689D24960CED005568E0 /* BusyHours.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BusyHours.cpp; sourceTree = "<group>"; };
+		5D0F689E24960CED005568E0 /* BusyHours.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BusyHours.hpp; sourceTree = "<group>"; };
+		5D578BEB247C2D26004875EA /* Appointment.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Appointment.cpp; sourceTree = "<group>"; };
+		5D578BEC247C2D26004875EA /* Appointment.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Appointment.hpp; sourceTree = "<group>"; };
+		5D9AE9D6244D8ADF00BA1FC5 /* Calendar */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Calendar; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D9AE9D9244D8ADF00BA1FC5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5D9AE9E6244F57EB00BA1FC5 /* calendarCommands.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = calendarCommands.cpp; sourceTree = "<group>"; };
+		5D9AE9E7244F57EB00BA1FC5 /* calendarCommands.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = calendarCommands.hpp; sourceTree = "<group>"; };
+		5D9AE9E924537EA500BA1FC5 /* Calendar.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Calendar.cpp; path = Calendar/Calendar.cpp; sourceTree = SOURCE_ROOT; };
+		5D9AE9EA24537EA500BA1FC5 /* Calendar.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Calendar.hpp; path = Calendar/Calendar.hpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D9AE9D3244D8ADF00BA1FC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D9AE9CD244D8ADF00BA1FC5 = {
+			isa = PBXGroup;
+			children = (
+				5D9AE9D8244D8ADF00BA1FC5 /* Calendar */,
+				5D9AE9D7244D8ADF00BA1FC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D9AE9D7244D8ADF00BA1FC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D9AE9D6244D8ADF00BA1FC5 /* Calendar */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D9AE9D8244D8ADF00BA1FC5 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				5D0F689D24960CED005568E0 /* BusyHours.cpp */,
+				5D0F689E24960CED005568E0 /* BusyHours.hpp */,
+				5D9AE9E6244F57EB00BA1FC5 /* calendarCommands.cpp */,
+				5D9AE9E7244F57EB00BA1FC5 /* calendarCommands.hpp */,
+				5D9AE9E924537EA500BA1FC5 /* Calendar.cpp */,
+				5D9AE9EA24537EA500BA1FC5 /* Calendar.hpp */,
+				5D9AE9D9244D8ADF00BA1FC5 /* main.cpp */,
+				5D578BEB247C2D26004875EA /* Appointment.cpp */,
+				5D578BEC247C2D26004875EA /* Appointment.hpp */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D9AE9D5244D8ADF00BA1FC5 /* Calendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D9AE9DD244D8ADF00BA1FC5 /* Build configuration list for PBXNativeTarget "Calendar" */;
+			buildPhases = (
+				5D9AE9D2244D8ADF00BA1FC5 /* Sources */,
+				5D9AE9D3244D8ADF00BA1FC5 /* Frameworks */,
+				5D9AE9D4244D8ADF00BA1FC5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Calendar;
+			productName = Calendar;
+			productReference = 5D9AE9D6244D8ADF00BA1FC5 /* Calendar */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D9AE9CE244D8ADF00BA1FC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Daniel Shterev";
+				TargetAttributes = {
+					5D9AE9D5244D8ADF00BA1FC5 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 5D9AE9D1244D8ADF00BA1FC5 /* Build configuration list for PBXProject "Calendar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D9AE9CD244D8ADF00BA1FC5;
+			productRefGroup = 5D9AE9D7244D8ADF00BA1FC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D9AE9D5244D8ADF00BA1FC5 /* Calendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D9AE9D2244D8ADF00BA1FC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9AE9DA244D8ADF00BA1FC5 /* main.cpp in Sources */,
+				5DCAAF66248D9EC300D64FAA /* calendarCommands.cpp in Sources */,
+				5D9AE9EB24537EA500BA1FC5 /* Calendar.cpp in Sources */,
+				5D578BED247C2D26004875EA /* Appointment.cpp in Sources */,
+				5D0F689F24960CED005568E0 /* BusyHours.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5D9AE9DB244D8ADF00BA1FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5D9AE9DC244D8ADF00BA1FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5D9AE9DE244D8ADF00BA1FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D9AE9DF244D8ADF00BA1FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D9AE9D1244D8ADF00BA1FC5 /* Build configuration list for PBXProject "Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D9AE9DB244D8ADF00BA1FC5 /* Debug */,
+				5D9AE9DC244D8ADF00BA1FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D9AE9DD244D8ADF00BA1FC5 /* Build configuration list for PBXNativeTarget "Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D9AE9DE244D8ADF00BA1FC5 /* Debug */,
+				5D9AE9DF244D8ADF00BA1FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D9AE9CE244D8ADF00BA1FC5 /* Project object */;
+}
