@@ -1,0 +1,108 @@
+*
+{
+box-sizing: border-box;
+}
+
+a:link{
+text-decoration:none;
+}
+
+a:visited{
+text-decoration:none;
+}
+
+a:hover{
+text-decoration:none;
+}
+
+a:active{
+text-decoration:none;
+}
+
+header
+{
+position: relative;
+margin: 25px auto;
+}
+#edrosmliana{
+text-align: center;
+}
+
+#drebnosmliana{
+text-align: center;
+}
+
+h2{
+font-size:32px;
+font-weight:bold;
+text-align: center;
+font-family: "Amatic SC";
+font-style: normal;
+font-variant: normal;
+}
+
+h4,h3{
+text-align: center;
+font-family: Arial;
+}
+
+a{
+font-weight:bold;
+font-size: 28px;
+font-family: "Amatic SC";
+color: black;
+}
+
+th{
+padding: 0px 163px;
+}
+
+table,th{
+background-color: white;
+border:1px solid black;
+}
+
+table{
+margin-left: auto;
+margin-right: auto;
+border-collapse:collapse;
+}
+
+nav a{
+font-size: 20px;
+font-weight: bold;
+position:relative;
+text-align: center;
+font-family: "Amatic SC";
+font-style: normal;
+font-variant: normal;
+color:black;
+}
+
+body{
+background-color:white;
+}
+
+footer{
+border: 2px solid black ;
+border-radius: 20px;
+background-color: maroon;
+}
+
+a:hover{
+color:maroon;
+}
+
+th.aboutus{
+background-color:maroon;
+}
+
+nav a.aboutus{
+color: white;
+}
+
+.center{
+margin-left:auto;
+margin-right:auto;
+}
+
