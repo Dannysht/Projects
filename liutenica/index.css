@@ -1,44 +1,41 @@
 *{
-    box-sizing: border-box;
+box-sizing: border-box;
 }
-        
+    
 .login{
     position:relative;
     top:3px;
     margin:8px;
 }
-    
+
 .register{
     top:3px;
     position:relative;
 }
-      
+  
 .register:hover{
     color:maroon;
 }
-        
+    
 .login:hover{
     color:maroon;
 }
-        
+    
 a{
     font-weight:bold;
     font-size: 30px;
     font-family: "Amatic SC",cursive;
     color: black;
-}
-        
+    }
+    
 a:hover{
     color:maroon;
 }
-footer{
-border: 2px solid black ;
-border-radius: 20px;
-background-color: maroon;
-}
-
-a:hover{
-color:maroon;
+    
+h2{
+    font-weight:bold;
+    font-size: 22px;
+    font-family:"Amatic SC",cursive;
 }
 
 h6{
@@ -71,9 +68,14 @@ a:active{
 main{
     position:absolute;
     top:465px;
-    left:435px;
+    left:525px;
 }
-    
+
+.prod{
+    position: relative;
+    left:75px;
+}
+
 footer{
     position: relative;
     top:750px;
@@ -81,13 +83,9 @@ footer{
     border-radius: 20px;
     background-color: maroon;
 }
-
-.aboutus{
-    color:maroon;
-}
-
-.home{
     
+.home{
+    color:maroon;
     margin:4px;
     left:2px;
     position:relative;
@@ -98,6 +96,10 @@ svg{
     top:3px;
     height:25px;
     width:30px;
+}
+
+svg:hover{
+    fill:maroon;
 }
 
 /* Slideshow container */

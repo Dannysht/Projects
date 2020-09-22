@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
   <title>Лютеницата на леля</title>
@@ -11,17 +11,17 @@
   </svg>    
   <script src="https://kit.fontawesome.com/6ca193216e.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Amatic+SC" />
-  <link rel="stylesheet" type="text/css" href="aboutproduct.css" />
+  <link rel="stylesheet" type="text/css" href="index.css" />
 </head>
 <nav>
     <a class="home" href="index.html"><i class="fas fa-home fa-sm" alt="Продукти"></i></a>
     <a href="aboutproduct.html"><svg class="icon icon-jar"><use xlink:href="#icon-jar" alt="За лютеницата"></use></svg></a>
     <a class="aboutus" href="aboutus.html"><i class="fas fa-users fa-sm" alt="За нас"></i></a>
-    <h6 class = "loginControls"><a href="cart.html"><i class="fas fa-shopping-cart fa-sm"></i><a href = "login.html" class = "login">Вход</a><a href = "/register.html" class="register">Регистрация</a></h6>
+    <h6 class = "loginControls"> <a href="cart.html"><i class="fas fa-shopping-cart fa-sm"></i></a><a href = "login.html" class = "login">Вход</a><a href = "/register.html" class="register">Регистрация</a></h6>
 </nav>
 <header>
-  <!-- Slideshow container -->
-  <div class="slideshow-container">
+<!-- Slideshow container -->
+<div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
@@ -51,21 +51,37 @@
   <!-- Next and previous buttons -->
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  </div>
-  <br>
+</div>
+<br>
 
-  <!-- The dots/circles -->
-  <div style="text-align:center">
+<!-- The dots/circles -->
+<div style="text-align:center">
   <span class="dot" onclick="currentSlide(1)"></span>
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
-  </div>
-  <script>var slideIndex = 2;</script><script src="movement.js"></script>
+</div>
+<script>var slideIndex = 1;</script><script src="movement.js"></script>
 </header>
 <body>
-  <main class = "information">
-    <br>
-  </main>
+    <main>
+      <h2 class="prod">Продукти:</h2>
+	<div id = "edrosmliana">
+	  <a href = "/edrosmliana.html">
+          <img src = "едросмляна.jpg" alt = "Едросмляна" class="center" height = "200" width = "200">
+	  <br>
+	  <h2>Едросмляна домашна лютеница</h2>
+	  </a>
+	  <h3>6.30 BGN</h3>
+	</div>
+	<div id = "drebnosmliana">
+	  <a href = "/drebnosmliana.html">
+	  <img src = "drebnosmliana.jpg" alt = "Дребносмляна" class="center" height = "200" width = "200">
+	  <br>
+	  <h2>Финосмляна домашна лютеница</h2>
+	  </a>
+	  <h3>5.60 BGN</h3>
+	</div>
+	</main>
   <footer>
     <ul>
       <li>Доставка</li>
@@ -74,7 +90,7 @@
       <li>Политика за поверителност</li>
       <li>Бисквитки</li>
       <li>FAQ</li>
-      </ul>
+    </ul>
   </footer>
 </body>
 </html>
