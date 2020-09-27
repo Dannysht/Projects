@@ -66,19 +66,18 @@ a:active{
 }
 
 main{
-    position:absolute;
-    top:465px;
-    left:525px;
+    text-align: center;
+    position:relative;
 }
 
 .prod{
     position: relative;
-    left:75px;
+    left:0%;
 }
 
 footer{
     position: relative;
-    top:750px;
+    top:70px;
     border: 2px solid black ;
     border-radius: 20px;
     background-color: maroon;
