@@ -1,0 +1,140 @@
+
+/* CSS Document */
+html
+{
+	background: url("main background.png");
+    background-size: cover;
+}
+
+header
+{
+    margin: 0 -600.5rem;
+    background-color: #146ca4;
+    position: relative;
+    border-left: 600rem solid #146ca4;
+    border-right: 600rem solid #146ca4;
+}
+
+nav
+{
+    color:black;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    line-height: 1em;
+    text-decoration: none;
+    padding: 12px;
+    display: block;
+
+}
+nav a
+{
+    margin-left: -5px;
+    padding: 7px;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover
+{
+    background-color: #034066;
+    color:white;
+}
+
+body
+{
+	position: relative;
+    overflow-x:hidden;
+    margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+
+}
+
+h2 
+{
+	margin-top: 0;
+    color: #034066;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 64px;
+}
+
+main
+{
+	text-align: center;
+	margin-top: 25px;
+}
+
+form
+{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+a.menuright
+{
+    padding: 12px;
+    float:right;
+    margin-top: -12px;
+    margin-right: -5px;
+}
+
+.submitButton
+{
+	background-color: #146ca4;
+	margin: 0;
+	position: relative;
+	border: 2px solid black;
+	padding: 15px 32px;
+	font-size: 16px;
+	border-radius: 12px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.submitButton:hover
+{
+	cursor: pointer;
+	background-color: #034066;
+	color: white;
+}
+
+p
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h4
+{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#firstForm
+{
+	display: block;
+}
+
+#back
+{
+	margin-left: 48.3%;
+	display: none;
+}
+
+#hidden
+{
+	margin-left: 47.7%;
+	display: none;
+}
+
+#success
+{
+	margin-left: 15px;
+}
+
+#secondForm
+{
+	position:relative;
+	display: none;
+}

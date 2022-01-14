@@ -1,0 +1,300 @@
+html
+{
+	background: url("main background.png");
+    background-size: contain;
+    
+}
+
+header
+{
+    margin: 0 -600.5rem;
+    background-color: #146ca4;
+    position: relative;
+    border-left: 600rem solid #146ca4;
+    border-right: 600rem solid #146ca4;
+}
+
+nav
+{
+    color:black;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    line-height: 1em;
+    text-decoration: none;
+    padding: 12px;
+    display: block;
+
+}
+nav a
+{
+    margin-left: -5px;
+    padding: 7px;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover
+{
+    background-color: #034066;
+    color:white;
+}
+
+body
+{
+	position: relative;
+    overflow-x:hidden;
+    margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+
+}
+h2
+{
+    margin-top: 0;
+    color: #034066;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 64px;
+}
+
+img:hover
+{
+	max-height: 115px;
+	max-width: 275px;
+	margin-bottom: -20px;
+}
+
+main
+{	
+	display: block;
+	width: 50%;
+	margin: auto auto;
+}
+
+figure
+{
+	display: inline-block;
+	margin-left: auto;
+    margin-right:auto;
+}
+
+figcaption
+{
+	position: relative;
+	left: 50px;
+	bottom: 30px;
+	padding-right: 20px;
+	visibility: hidden;
+	color: white;
+	opacity: 0;
+}
+
+figure:hover figcaption:hover
+{
+	position: relative;
+	left:65px;
+	color: black;
+}
+
+figure.double_word:hover figcaption:hover
+{
+	position: relative;
+	left:37px;
+	color: black;
+}
+
+figure.double_word figcaption
+{
+	position: relative;
+	bottom: 30px;
+	padding-right: 20px;
+	visibility: hidden;
+	opacity: 0;
+}
+
+figure.double_word:hover figcaption
+{
+	left:50px;
+	bottom: 5px;
+	opacity: 1;
+	visibility: visible;
+}
+
+figure.eiffel:hover figcaption
+{
+	position: relative;
+	left:50px;
+	bottom: 5px;
+	opacity: 1;
+	visibility: visible;
+}
+
+figure.eiffel:hover figcaption:hover
+{
+	position: relative;
+	left:35px;
+}
+
+figure.sunset:hover figcaption
+{
+	position: relative;
+	left:45px;
+}
+
+figure.sunset:hover figcaption:hover
+{
+	left:27px;
+	bottom: 5px;
+	opacity: 1;
+	visibility: visible;
+}
+
+figure.louvre:hover figcaption
+{
+	left:67px;
+}
+figure.louvre:hover figcaption:hover
+{
+	left: 60px;
+}
+
+figure.arc figcaption
+{
+	left: 50px;
+}
+
+figure.arc:hover figcaption
+{
+	position: relative;
+	left:31px;
+}
+
+figure.arc:hover figcaption:hover
+{
+	left:16px;
+	bottom: 5px;
+	opacity: 1;
+	visibility: visible;
+}
+
+figure.champselisee:hover figcaption
+{
+	left: 58px;
+}
+
+figure.champselisee:hover figcaption:hover
+{
+	left: 50px;
+}
+
+figure.hotel:hover figcaption:hover
+{
+	position: relative;
+	left: 10px;
+}
+
+figure.hotel:hover figcaption
+{
+	left: 27px;
+}
+
+figure.room:hover figcaption
+{
+	left: 43px;
+}
+
+figure.room:hover figcaption:hover
+{
+	left: 25px;
+}
+
+figure.view:hover figcaption 
+{
+	left: 31px;
+}
+figure.view figcaption:hover
+{
+	left:17px;
+}
+
+figure.restaurant:hover figcaption:hover
+{
+	left:29px;
+}
+figure.restaurant:hover figcaption
+{
+	left:42px;
+}
+
+figure.spa:hover figcaption:hover
+{
+	left:35px;
+}
+figure.spa:hover figcaption
+{
+	left:53px;
+}
+figure.bar:hover figcaption
+{
+	left: 38px;
+}
+figure.bar:hover figcaption:hover
+{
+	left: 28px;
+}
+figure.lobby:hover figcaption
+{
+	left: 55px;
+}
+figure.lobby:hover figcaption:hover
+{
+	left: 37px;
+}
+
+figure:hover figcaption
+{
+	left: 75px;
+	bottom: 5px;
+	opacity: 1;
+	visibility: visible;
+}
+
+img
+{
+	border: 1px solid black;
+	padding: 2px;
+	max-height: 100px;
+    max-width: 250px;
+}
+
+a.menuright
+{
+    padding: 12px;
+    float:right;
+    margin-top: -12px;
+    margin-right: -5px;
+}
+
+button
+{
+	background-color: #146ca4;
+	margin: 0;
+	position: relative;
+	left: 33%;
+	border: 2px solid black;
+	padding: 15px 32px;
+	font-size: 16px;
+	border-radius: 12px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+button:hover
+{
+	cursor: pointer;
+	background-color: #034066;
+	color: white;
+}
